@@ -73,6 +73,7 @@ function App() {
                 set as done
                 <input
                     value={idOfTodoToSetAsDone}
+                    type="number"
                     onChange={(e) => {
                         setIdOfTodoToSetAsDone(Number(e.target.value))
                     }}
@@ -89,6 +90,7 @@ function App() {
                 set as not done
                 <input
                     value={idOfTodoToSetAsNotDone}
+                    type="number"
                     onChange={(e) => {
                         setIdOfTodoToSetAsNotDone(Number(e.target.value))
                     }}
@@ -105,6 +107,7 @@ function App() {
                 delete
                 <input
                     value={idOfTodoToDelete}
+                    type="number"
                     onChange={(e) => {
                         setIdOfTodoToDelete(Number(e.target.value))
                     }}
