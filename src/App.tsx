@@ -45,6 +45,8 @@ function App() {
     return (
         <>
             <div>
+                HOW TO EDIT: DELETE THEN ADD AGAIN
+                <br />
                 add new
                 <input
                     value={newTodoContent}
